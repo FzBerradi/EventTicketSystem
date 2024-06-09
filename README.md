@@ -18,6 +18,7 @@ To run the FixMyHome application locally:
 1. Clone this repository: `git clone https://github.com/FzBerradi/EventTicketSystem.git`
 2. Configure your MySQL database settings in `src/main/resources/persistence.xml`.
 3. Build and deploy the application to your Java EE application server (e.g., Apache Tomcat, WildFly).
+4. Access the application at `(http://localhost:8086/DecoratorProject/)`.
 
 ## Contributing
 
