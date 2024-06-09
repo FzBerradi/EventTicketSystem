@@ -1,5 +1,6 @@
 # Ticket Reservation System
  is a Java Enterprise Edition (JEE) application
+ 
 ## This ticket reservation system facilitates users to log in, select events, and securely pay for tickets. It employs multiple design patterns including Decorator, Observer, Strategy, and Factory to ensure robust and flexible functionality.
 
 ## Features
@@ -26,7 +27,7 @@
 
 ## Getting Started
 
-To run the Ticket Reservation System locally:
+To run  Ticket Reservation System locally:
 
 1. Clone this repository: `git clone https://github.com/FzBerradi/EventTicketSystem.git`
 2. Configure your MySQL database settings in `src/main/resources/application.properties`.
