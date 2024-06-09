@@ -1,6 +1,6 @@
 # Ticket Reservation System
  is a Java Enterprise Edition (JEE) application
-This ticket reservation system facilitates users to log in, select events, and securely pay for tickets. It employs multiple design patterns including Decorator, Observer, Strategy, and Factory to ensure robust and flexible functionality.
+## This ticket reservation system facilitates users to log in, select events, and securely pay for tickets. It employs multiple design patterns including Decorator, Observer, Strategy, and Factory to ensure robust and flexible functionality.
 
 ## Features
 
