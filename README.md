@@ -15,15 +15,6 @@ This ticket reservation system facilitates users to log in, select events, and s
 - **Observer Pattern**: Ensures real-time updates to users about changes in event availability.
 - **Strategy Pattern**: Offers multiple algorithms for event selection and ticket pricing, allowing flexibility and customization.
 - **Factory Pattern**: Creates instances of event objects based on user preferences or system requirements.
-
-## Technologies Used
-
-- **Design Patterns**: Implemented using Java design pattern principles
-- **Database**: MySQL for persistent storage of user and event data
-- **Frontend**: HTML, CSS, and JavaScript for user interface development
-- **Email Service**: Integration with SMTP for sending event notifications
-- **Payment Gateway**: Integration with a secure payment service provider for transaction processing
-- 
 ## Technologies Used2
 
 - **Java EE**: Enterprise-level Java framework for building scalable applications.
