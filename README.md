@@ -1,8 +1,30 @@
-# EventTicketSystem
+# Ticket Reservation System
+ is a Java Enterprise Edition (JEE) application
+This ticket reservation system facilitates users to log in, select events, and securely pay for tickets. It employs multiple design patterns including Decorator, Observer, Strategy, and Factory to ensure robust and flexible functionality.
 
-FixEventTicketSystemMyHome is a Java Enterprise Edition (JEE) application designed to:
+## Features
+
+- **User Authentication**: Secure login and authentication process for users.
+- **Event Selection**: Browse and select from a variety of available events.
+- **Ticket Purchase**: Seamless and secure payment gateway integration for purchasing tickets.
+- **Event Notifications**: Automatic email notifications to users about newly added events.
+
+## Design Patterns
+
+- **Decorator Pattern**: Enhances event objects with additional functionalities or options without altering their structure.
+- **Observer Pattern**: Ensures real-time updates to users about changes in event availability.
+- **Strategy Pattern**: Offers multiple algorithms for event selection and ticket pricing, allowing flexibility and customization.
+- **Factory Pattern**: Creates instances of event objects based on user preferences or system requirements.
 
 ## Technologies Used
+
+- **Design Patterns**: Implemented using Java design pattern principles
+- **Database**: MySQL for persistent storage of user and event data
+- **Frontend**: HTML, CSS, and JavaScript for user interface development
+- **Email Service**: Integration with SMTP for sending event notifications
+- **Payment Gateway**: Integration with a secure payment service provider for transaction processing
+- 
+## Technologies Used2
 
 - **Java EE**: Enterprise-level Java framework for building scalable applications.
 - **Servlets and JSP**: Handling HTTP requests and rendering dynamic web pages.
@@ -13,12 +35,12 @@ FixEventTicketSystemMyHome is a Java Enterprise Edition (JEE) application design
 
 ## Getting Started
 
-To run the FixMyHome application locally:
+To run the Ticket Reservation System locally:
 
 1. Clone this repository: `git clone https://github.com/FzBerradi/EventTicketSystem.git`
-2. Configure your MySQL database settings in `src/main/resources/persistence.xml`.
-3. Build and deploy the application to your Java EE application server (e.g., Apache Tomcat, WildFly).
-4. Access the application at `(http://localhost:8086/DecoratorProject/)`.
+2. Configure your MySQL database settings in `src/main/resources/application.properties`.
+3. Build and deploy the application to your Java application server (e.g., Apache Tomcat).
+4. Access the application at `http://localhost:8086/DecoratorProject/).
 
 ## Contributing
 
